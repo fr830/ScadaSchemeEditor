@@ -1,2 +1,2 @@
-# AnotherScadaSchemeEditor
+# ScadaSchemeEditor
 Scheme editor for RapidScada

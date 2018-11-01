@@ -9,6 +9,8 @@ namespace ScadaSchemeEditor.Controllers
 {
     public class SchemeController : Controller
     {
+        private SchemeModel Model = null;
+
         /// <summary>
         /// Gets or sets the identifier.
         /// </summary>
@@ -19,10 +21,10 @@ namespace ScadaSchemeEditor.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
-            var schemeModel = new SchemeModel(){
+            Model = new SchemeModel(){
                 Name = "Test Scheme"
             };
-            return View("Index", schemeModel);
+            return View("Index", Model);
         }
     }
 }

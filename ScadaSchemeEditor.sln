@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScadaSchemeEditor", "ScadaSchemeEditor\ScadaSchemeEditor.csproj", "{D600B170-C951-462F-AEE8-0790CEDBA295}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheme", "Scheme\Scheme.csproj", "{086FE50D-5F04-4B30-98E1-34C6EF3A05F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchemeComponent", "SchemeComponent\SchemeComponent.csproj", "{EAE662E5-CF6E-4689-B2CC-F1AE947D5290}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +17,13 @@ Global
 		{D600B170-C951-462F-AEE8-0790CEDBA295}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D600B170-C951-462F-AEE8-0790CEDBA295}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D600B170-C951-462F-AEE8-0790CEDBA295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{086FE50D-5F04-4B30-98E1-34C6EF3A05F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086FE50D-5F04-4B30-98E1-34C6EF3A05F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086FE50D-5F04-4B30-98E1-34C6EF3A05F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086FE50D-5F04-4B30-98E1-34C6EF3A05F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAE662E5-CF6E-4689-B2CC-F1AE947D5290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAE662E5-CF6E-4689-B2CC-F1AE947D5290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAE662E5-CF6E-4689-B2CC-F1AE947D5290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAE662E5-CF6E-4689-B2CC-F1AE947D5290}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

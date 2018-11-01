@@ -4,12 +4,9 @@
  * Descirption: Scheme editor for Scada (RapidScada)
  */
 
-using System.IO;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.AspNetCore.Mvc.Testing;
 
 namespace ScadaSchemeEditor
 {
@@ -45,6 +42,12 @@ namespace ScadaSchemeEditor
                 routes.MapRoute(
                     name: "default", 
                     template: "{controller=Scheme}/{action=Index}");
+                routes.MapRoute(
+                    name: "service/update",
+                    template: "{controller=Scheme}/{action=Update");
+                routes.MapRoute(
+                    name: "service/load",
+                    template: "{controller=Scheme}/{action=Load");
             });
         }
     }
